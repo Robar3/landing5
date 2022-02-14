@@ -41,23 +41,26 @@
   box-sizing: border-box;
   max-width: 1440px;
 }
-.blackButton:hover{
+
+.blackButton:hover {
   background-color: blue !important;
 }
 
 
-header{
+header {
   margin: 0 60px;
   height: 85px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.menu img{
+
+.menu img {
   width: 28px;
   height: 20px;
 }
-.shippingOrder{
+
+.shippingOrder {
   margin-left: 20px;
   font-family: Basis Grotesque Pro;
   font-style: normal;
@@ -69,7 +72,7 @@ header{
   text-transform: uppercase;
 }
 
-.loope{
+.loope {
   margin-right: 30px;
 }
 
@@ -77,18 +80,18 @@ header{
   margin-right: -40px;
 }
 
-#block1{
+#block1 {
   position: relative;
   height: 747px;
   border-radius: 0px;
-  background-image:url("./assets/Rocks.png"), url("./assets/block1Background.png");
+  background-image: url("./assets/Rocks.png"), url("./assets/block1Background.png");
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center
 }
 
-.mainText{
+.mainText {
   width: 645px;
   height: 360px;
   font-style: normal;
@@ -100,13 +103,13 @@ header{
   margin-top: -55px;
 }
 
-.shopButton{
+.shopButton {
   position: absolute;
   margin-bottom: -500px;
   margin-right: -1220px;
 
 
-  & button{
+  & button {
     border-radius: 50%;
     height: 150px;
     width: 150px;
@@ -125,7 +128,7 @@ header{
   }
 }
 
-.crystalsCom{
+.crystalsCom {
   height: 85px;
   overflow: hidden;
   display: flex;
@@ -138,31 +141,34 @@ header{
   text-transform: uppercase;
   margin: 0 5px;
   color: #000000;
-  border-top:  1px solid #EAC1BF ;
-  border-bottom:  1px solid #EAC1BF ;
-  & p{
+  border-top: 1px solid #EAC1BF;
+  border-bottom: 1px solid #EAC1BF;
+
+  & p {
     flex: 1 1 auto;
     margin: 0 7px;
   }
-  & p:first-child{
+
+  & p:first-child {
     margin-left: -130px;
   }
-  & p:nth-child(5){
-    background: linear-gradient(45deg, #BEC0E9 0%, #F5AAFC 46.99%, #FEE5A1 100%);
+
+  & p:nth-child(5) {
+    background: linear-gradient(45deg, #BEC0E9 10%, #F5AAFC 30%, #FEE5A1 60%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
   }
 }
 
-#block2{
+#block2 {
   display: flex;
   height: 900px;
   background: linear-gradient(241.95deg, #FFFFFF 0.5%, rgba(255, 255, 255, 0) 80.8%), rgba(234, 193, 191, 0.64);
   border-radius: 0px;
 
 
-  & p{
+  & p {
     height: 470px;
     width: 450px;
     font-family: Ogg;
@@ -172,25 +178,27 @@ header{
     line-height: 68px;
   }
 
-  & button{
-    width: 190px;
-    height: 48px;
-    background: #000000;
-    border-radius: 32px;
-
-    font-family: Basis Grotesque Pro;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 20px;
-    text-align: center;
-    text-transform: uppercase;
-
-    color: #FFFFFF;
-  }
 }
 
-.text{
+.smallButton{
+  width: 190px;
+  height: 48px;
+  background: #000000;
+  border-radius: 32px;
+
+  font-family: Basis Grotesque Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
+}
+
+.text {
   display: flex;
   flex-direction: column;
 
@@ -200,12 +208,12 @@ header{
   align-items: center;
   margin-top: 101px;
 
-  & button{
-    margin-top: 80px ;
+  & button {
+    margin-top: 80px;
   }
 }
 
-.papersOnGreen{
+.papersOnGreen {
   position: relative;
   display: flex;
   width: 50%;
@@ -215,16 +223,9 @@ header{
   margin-top: 412px;
 
 }
-.block2Wrap{
-  height: 500px;
-  width: 1240px;
-  margin: auto;
-  display: flex;
-  justify-content: space-around;
-}
 
 
-.papers{
+.papers {
   position: absolute;
   width: 470px;
   height: 675px;
@@ -232,12 +233,509 @@ header{
   background-size: cover;
   margin: auto;
 }
-.greenBKG{
+
+.greenBKG {
   position: absolute;
 
   width: 770px;
   height: 770px;
-  background: url("./assets/greenPicture.png")no-repeat;
+  background: url("./assets/greenPicture.png") no-repeat;
   background-size: cover;
   margin: auto;
+}
+
+#block3 {
+  display: flex;
+  height: 960px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.block3Wrap {
+  height: 630px;
+  width: 1130px;
+  display: flex;
+
+}
+
+.mountain {
+  width: 581px;
+  height: 609px;
+  background: url("./assets/mountain.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  & button {
+    width: 242px;
+    height: 48px;
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 32px;
+
+    font-family: Basis Grotesque Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    border: none;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+  }
+}
+
+.block3Text {
+  width: 232px;
+
+  & img {
+    margin-left: 45%;
+  }
+
+  & * {
+    margin-bottom: 20px;
+  }
+
+  & p {
+    font-family: Basis Grotesque Pro;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+
+
+    &.author {
+
+      text-transform: uppercase;
+      font-size: 16px;
+    }
+
+  }
+}
+
+.block3TextWrap {
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+}
+
+#block4 {
+  position: relative;
+  height: 865px;
+  display: flex;
+  border-top: 1px solid #EAC1BF;
+  border-bottom: 1px solid #EAC1BF;
+  z-index: 20;
+}
+
+.pinkDot{
+  position: absolute;
+  width: 658px ;
+  height: 652px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%), #FACCBF;
+  margin: -140px 648px;
+  z-index: -1;
+}
+
+.crystalsPNG {
+  z-index: 2;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  & div:nth-child(2){
+    margin-left: 30px;
+  }
+}
+
+.colorCristal {
+
+  width: 40%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+
+  & li {
+    font-family: Ogg;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 47px;
+    line-height: 48px;
+
+    list-style-type: none;
+    padding-bottom: 32px;
+
+    &:before {
+      display: inline-block;
+      content: '';
+      width: 28px;
+      height: 28px;
+
+      filter: blur(7px);
+      border-radius: 10px;
+    }
+    &:nth-child(1):before{
+      background: #FACCBF;
+    }
+    &:nth-child(2):before{
+      background: #E3D8C1;
+    }
+    &:nth-child(3):before{
+      background: #878C8F;
+    }
+    &:nth-child(4):before{
+      background: #C09DBD;
+    }
+    &:nth-child(5):before {
+      background: #C09DBD;
+    }
+  }
+
+}
+
+.colorCristalWrap {
+  height: 550px;
+  flex-direction: column;
+
+
+  & p{
+    margin-bottom: 20px;
+    font-family: Basis Grotesque Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  & ul{
+    margin-left: -40px;
+  }
+  & button{
+    width: 252px ;
+    height: 48px;
+    background: url("./assets/buttonBKGFindMatch.png");
+    border-radius: 32px;
+    border: none;
+
+    font-family: Basis Grotesque Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+
+    text-align: center;
+    text-transform: uppercase;
+    &:hover{
+      border: 1px solid #F5AAFC;
+    }
+  }
+}
+
+.crystalsPNGWrap {
+  width: 347px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #EAC1BF;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-color: #FFFFFF;
+}
+
+.crystalName {
+  font-family: Basis Grotesque Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.crystalPrice {
+  font-family: Basis Grotesque Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+
+  text-align: center;
+  letter-spacing: 1px;
+
+}
+
+#block5{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 524px;
+  background: #FBF9F9;
+  border: 1px solid #EAC1BF;
+  box-sizing: border-box;
+  border-radius: 0px;
+
+  & h3{
+    font-family: Ogg;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 47px;
+    line-height: 68px;
+
+    text-align: center;
+  }
+}
+
+.frames{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+
+  & div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-family: Basis Grotesque Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    & img{
+      padding-bottom: 27px;
+    }
+
+
+  }
+}
+
+.pinkCircleWrap{
+position: relative;
+}
+.pinkCircle{
+  height: 111px;
+  width: 111px;
+  position: absolute;
+  z-index: 1;
+  background: rgba(185, 86, 187, 0.35);
+  filter: blur(23px);
+  border-radius: 31px;
+
+  margin-bottom: 25px;
+}
+#block6{
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 922px;
+  display: flex;
+
+  & h2{
+    font-family: Ogg;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 116px;
+    line-height: 120px;
+
+    text-align: center;
+  }
+}
+.block6Wrap{
+  display: flex;
+  text-align: left;
+  & div{
+  margin-right: 15px;
+    & p{
+      text-align: left;
+    }
+}
+}
+
+.productName{
+  font-family: Ogg;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 48px;
+}
+
+#block7{
+  height: 424px;
+  background: linear-gradient(270deg, #FFFFFF 45.52%, rgba(255, 255, 255, 0.58) 100%), #EAC1BF;
+  border-radius: 0px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-top: 1px solid #EAC1BF;
+  border-bottom: 1px solid #EAC1BF;
+
+  & div:last-child *{
+    margin-right: 15px;
+  }
+}
+
+.block7Text{
+  display: flex;
+  flex-direction: column;
+  width: 262px;
+  height: 298px;
+
+  & h3{
+    font-family: Ogg;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  & p{
+    font-family: Basis Grotesque Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  & *{
+    margin-bottom: 20px;
+  }
+}
+
+#block8{
+  height: 730px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.block8Wrap{
+  height: 665px;
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.girlWrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & *{
+    margin-bottom: 20px;
+  }
+  & h3{
+    font-family: Ogg;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 72px;
+    text-align: center;
+  }
+
+  & p{
+    font-family: Basis Grotesque Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+}
+
+#block9{
+  height: 337px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  & p{
+    margin-bottom: 20px;
+    font-family: Basis Grotesque Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  & img{
+    margin-right: 10px;
+  }
+}
+
+footer{
+  height: 490px;
+  background: url("./assets/footerBKG.png");
+}
+
+.footWrap{
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  margin-left: 50px;
+
+  & h2{
+    font-size: 175px;
+    font-family: Roboto;
+    font-weight: 400;
+    height: 110px;
+    margin-bottom: 170px;
+  }
+
+  & p{
+    font-family: Basis Grotesque Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+}
+
+.social{
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  & p{
+    width: 170px;
+    margin-bottom: 28px;
+    font-family: Basis Grotesque Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+
+    text-transform: uppercase;
+  }
 }
